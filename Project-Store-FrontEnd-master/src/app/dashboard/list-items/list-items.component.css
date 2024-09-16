@@ -1,0 +1,52 @@
+.item-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item-card {
+  background-color: white;
+  width: 32vw;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.lbl-title {
+  font-family: lato;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.img-preview {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  display: block;
+}
+
+.div-buttons {
+  margin-top: auto;
+}
+
+.button-add-to-cart {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.div-spacer {
+  width: 100%;
+  height: 16px;
+}
+.div-row {
+  display: flex;
+  flex: 1; /* unnecesary */
+  flex-wrap: wrap;
+}
